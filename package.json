@@ -1,0 +1,35 @@
+{
+  "name": "reasonz",
+  "version": "0.0.0",
+  "description": "A Haskell fan fiction for ReasonML",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrynx/reasonz.git"
+  },
+  "keywords": [
+    "reason",
+    "reasonml",
+    "haskell",
+    "typeclasses"
+  ],
+  "author": "Shriyans Bhatnagar <shriyansbhatnagar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shrynx/reasonz/issues"
+  },
+  "homepage": "https://github.com/shrynx/reasonz#readme",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "npm run build && jest --coverage",
+    "watch:test": "jest --coverage --watchAll"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.2",
+    "bs-platform": "^3.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
