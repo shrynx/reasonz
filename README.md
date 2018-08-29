@@ -20,4 +20,4 @@ To learn more about typeclasses refer to [typeclassopedia](https://wiki.haskell.
 - [ ] [Contavariant Functor](./src/ContavariantFunctor.re)
 - [ ] [ProFunctor](./src/ProFunctor.re)
 - [ ] [Extend](./src/Extend.re)
-- [ ] [Comonad](./src/Commonad.re)
+- [ ] [Comonad](./src/Comonad.re)
